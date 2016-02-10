@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #c5dce3;
+}
+h2{
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+form {
+    font-family: 'open sans condensed',sans-serif;
+}
+div {
+    width: 100%;
+    list-style-type: none;
+    border-right: 4px solid #806464;
+    padding: .75em;
+    letter-spacing: 1.7px;
+    background-color: #ffffff;
+    display: block;
+    
+}
+form#todo {
+    background-color: orange;
+    padding: .6em;
+    width: 300px; 
+    height: 80%; 
+    position: fixed;
+    top: 40px;
+    right: 40px;
+}
+input[type=checkbox] {
+    margin-right: 1em;
+}
+input[type="text"] {
+    font-family: 'open sans condensed', sans-serif;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    width: 70%;   
+    border: none;
+    font-size: 1em;
+    letter-spacing: 1.7px;
+}
+input[type="text"]:focus,
+input[type="text"].focus{
+    outline: none;
+    border-bottom: 1px solid orange;
+}
+
+form#bkdColor {
+    width: 170px;
+    background-color: transparent;
+    padding: .5em 1em .5em 1em;
+    text-align: left;
+    line-height: 2.2em;
+    letter-spacing: .2px;
+    font-size: 12px;
+    float: left;  
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

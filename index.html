@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Drag Library</title>
+
+    <!--Link to CSS-->
+    <link type="text/css" rel="stylesheet" href="ex5.css">
+
+    <!--Link to JS-->
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!--Link to JS UI-->
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!--link to custom JS-->
+    <script type="text/javascript" src="ex5.js"></script>
+    
+    <!--clock insert JS-->
+    <script type="text/javascript" src="clock/coolclock.js"></script>
+    <script type="text/javascript" src="clock/moreskins.js"></script>
+    
+    <!--link to google font-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CMontserrat' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <canvas id="clockid" class="CoolClock:swissRail:Radius::GMTOffset"></canvas>
+    
+    <form name="todo" id="todo">
+        <h2>~ TO-DO ~</h2>
+        <div class="vdrag">
+            <input type="checkbox" name="listItem" value="1"> Buy parking permit</div>
+        <div class="vdrag">
+            <input type="checkbox" name="listItem" value="2"> Apply for scholarship</div>
+        <div class="vdrag">
+            <input type="submit" value="+">            <input type="text" name="newItem" value="do this too">
+        </div>
+    </form>
+    <footer>
+        <form name="background" id="bkdColor">
+            <p>select a background color</p>
+            <input type="color" name="bkdColor" value="#ffffff">
+            <input type="submit" value="OK">
+        </form>
+        <h1>Student Name</h1>
+    </footer>
+
+</body>
+
+</html>
