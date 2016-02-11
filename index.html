@@ -17,25 +17,34 @@
     <!--link to custom JS-->
     <script type="text/javascript" src="ex5.js"></script>
     
-    <!--clock insert JS-->
+    <!--clock insert JS
     <script type="text/javascript" src="clock/coolclock.js"></script>
-    <script type="text/javascript" src="clock/moreskins.js"></script>
+    <script type="text/javascript" src="clock/moreskins.js"></script>-->
     
     <!--link to google font-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CMontserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700%7CMontserrat' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <canvas id="clockid" class="CoolClock:swissRail:Radius::GMTOffset"></canvas>
+    <!--<canvas id="clockid" class="CoolClock:swissRail:Radius::GMTOffset"></canvas>-->
+    <figure class="selectable"><img id="clock" src="images/clock.svg" width="150" height="150" alt="clock"></figure>
     
-    <form name="todo" id="todo">
-        <h2>~ TO-DO ~</h2>
-        <div class="vdrag">
+    <figure class="selectable">
+    <img id="calendar" src="images/calendar.svg" width="195" height="200" alt="calendar placeholder"></figure>
+    
+    <figure class="selectable">
+    <img id="note" src="images/note.svg" width="275" height="200" alt="sticky note">
+    </figure>
+    
+    <form name="todo" id="todo" class="selectable">
+        <h2> TO-DO </h2>
+        <div>
             <input type="checkbox" name="listItem" value="1"> Buy parking permit</div>
-        <div class="vdrag">
+        <div>
             <input type="checkbox" name="listItem" value="2"> Apply for scholarship</div>
-        <div class="vdrag">
-            <input type="submit" value="+">            <input type="text" name="newItem" value="do this too">
+        <div>
+            <input type="submit" value="+">            
+            <input type="text" name="newItem" value="do this too">
         </div>
     </form>
     <footer>
