@@ -100,11 +100,28 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'open sans condensed', sans-serif;
 }
 footer h1 {
     float: right;
     margin: .5em 1em;
     color: #806464;
+    font-family: 'montserrat', sans-serif;
     
+}
+
+footer div {
+    font-size: .7em;
+    position: fixed;
+    bottom: 80px;
+    left: 10px;
+    color: #808080;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #605f5f;
+}
+a:hover {
+    color: #ebfa75;
+    letter-spacing: 2px;
 }
